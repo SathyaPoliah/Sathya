@@ -7,47 +7,59 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	
+	<script src="js/bootstrap.min.js"></script>	
+	<style>
+	ul {padding-left:2em}
+	li {
+	list-style: none;
+	background-image: url("img/star.jpg");
+	background-repeat: no-repeat;
+	background-size: 15px;
+	padding-left:2em;
+}
+	</style>	
 	<script>
-$(document).ready(function(){
-    $("p").css("align", "justify");
-});
-</script>
-
-	
+		$(document).ready(function(){
+		$("p").css("text-align","justify");
+		$("p").css("text-justify","inter-word");
+		$("img").css("align","center");
+		});
+	</script>
   </head>
   <body>
     <div class="container-fluid marginal">
 	<div class="col-sm-8 col-sm-offset-2">
+	
+	
 	<div class="row">
-        <div class="col-sm-8 col-sm-offset-4">
-          <h1><abbr title="Find Me">
-						<a href="https://www.facebook.com/sathya.poliah" target="_new">
+        <div class="col-sm-8 col-sm-offset-4" >
+          <h1><abbr >
+						<a href="https://www.facebook.com/sathya.poliah" target="_new" title="Find Me" >
 						<img src="img\fb.jpg" class="img-rounded" alt="Find Me" width="30" height="30"></a>
 						</abbr> Sathya Poliah</h1>
 		 </div>
 	</div>
 	<hr>	 
-	<div class="row">			
-				<div class="col-sm-6" >
-					<p> 
-						<abbr title="Contact Me">
-						<a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_new">
+	<div class="row" align="center">			
+				<div class="col-sm-6">
+						<abbr >
+						<a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_new" title="Contact Me" align="center">
 						<img src="img\contact.jpg" class="img-responsive" alt="Contact Me" width="30" height="30"></a>
 						</abbr>425-922-4941 | sathyapoliah@gmail.com 
-					<p> 
 				</div>
-				<div class="col-sm-offset-7">
-					<p>
+				
+				<div class="col-sm-6">
+					
 						<abbr title="Living At">
 						<a href="https://www.google.com/maps/place/8259+Norwood+Ln+N,+Maple+Grove,+MN+55369/@45.106103,-93.4431227,17z/data=!3m1!4b1!4m5!3m4!1s0x52b347f9cb2b3aa7:0x8ce16768b50c55bc!8m2!3d45.106103!4d-93.440934" target="_new">
 						<img src="img\house.jpg" class="img-responsive" alt="Living At" width="30" height="30"></a>
 						</abbr>8259 Norwood Lane N, Maple grove, MN, 55369 
-					</p> 
+					 
 				</div>
+				
 	</div>
 	<hr>
+	<br>
 	<div class ="row">
 		<div class ="col-sm-3"> 
 			<p><strong>Career Objective:</strong></p>
@@ -99,17 +111,71 @@ $(document).ready(function(){
 	
 	<div class ="row">
 		<div class ="col-sm-3"> 
+			<p> <strong>Programming Skills:</strong></p>
+		</div>
+	</div>
+	<div class ="row">
+	<div class ="col-sm-offset-3">
+		<div class ="col-sm-3">
+			<p> Operating system: </p>
+		</div>
+		<div class ="col-sm-1"></div>
+		<div class ="col-sm-5">
+				<p>Windows, Linux -Fedora, Ubuntu</p>
+		</div>
+	</div>	
+	</div>
+	<div class ="row">
+	<div class ="col-sm-offset-3">
+		<div class ="col-sm-3">
+			<p> Languages known: </p>
+		</div>
+		<div class ="col-sm-1"></div>
+		<div class ="col-sm-5">
+				<p>C, C++, Core-Java, Python, Pearl(basics)</p>
+		</div>
+	</div>	
+	</div>
+	<div class ="row">
+	<div class ="col-sm-offset-3">
+		<div class ="col-sm-3">
+			<p> Web Technologies:</p>
+		</div>
+		<div class ="col-sm-1"></div>
+		<div class ="col-sm-5">
+				<p>PHP, HTML, CSS and JavaScript, JQuery, Bootstrap(basics)</p>
+		</div>
+	</div>	
+	</div>
+	<div class ="row">
+	<div class ="col-sm-offset-3">
+		<div class ="col-sm-3">
+			<p> Databases known: </p>
+		</div>
+		<div class ="col-sm-1"></div>
+		<div class ="col-sm-5">
+				<p>MySQL, Oracle</p>
+		</div>
+	</div>	
+	</div>
+	
+	
+	
+	
+	
+	<div class ="row">
+		<div class ="col-sm-3"> 
 			<p> <strong>Relevant Experience:</strong></p>
 		</div>
 		
 		<div class ="row">
-		<div class ="col-sm-offset-3">
+			<div class ="col-sm-offset-3">
 			<p><h5><i>Teaching Assistant (May 2017 – Jun 2017) – St. Cloud State University, St. Cloud, MN.</i></h5></p>
+			</div>
 		</div>
-	</div>
-	<div class ="row">
-		<div class ="col-sm-3"></div>
-		<div class ="col-sm-9">
+		<div class ="row">
+			<div class ="col-sm-3"></div>
+			<div class ="col-sm-9">
 				<ul>
 					<li><p> Directed C++ laboratories and classes, graded corresponding labs and exams. </p></li>				
 					<li><p> Helped the professor to set-up and online class to connect, with the web conferencing software-AdobeConnect. </p></li>
@@ -119,18 +185,18 @@ $(document).ready(function(){
 					electronically working as a connection between students and the professor.</p></li>
 					
 				</ul>
-		</div>
+			</div>
 			
-	</div>
-		
-		
-		<div class ="col-sm-offset-3">
-			<p><h5><i>Graduate Assistant (Jan 2017 – May 2017) – St. Cloud State University, St. Cloud, MN.</i></h5></p>
 		</div>
-	</div>
-	<div class ="row">
-		<div class ="col-sm-3"></div>
-		<div class ="col-sm-9">
+		
+		<div class="row">
+			<div class ="col-sm-offset-3">
+				<p><h5><i>Graduate Assistant (Jan 2017 – May 2017) – St. Cloud State University, St. Cloud, MN.</i></h5></p>
+			</div>
+		</div>
+		<div class ="row">
+			<div class ="col-sm-3"></div>
+			<div class ="col-sm-9">
 				<ul>
 				
 					<li> <p>Directed C++ laboratory and Programming Languages class.</p></li>
@@ -138,184 +204,132 @@ $(document).ready(function(){
 					<li><p> Contributed to development of new material for department courses.</p></li>
 					<li> <p>Handled administrative tasks including preparation of PowerPoint presentations, PDF document manuals, etc.,</p></li>
 				</ul>
+			</div>
 		</div>
-		
-	</div>
-	<div class ="row">
-		<div class ="col-sm-offset-3">
-			<p><h5><i>Lab Assistant (Jan 2017 – May 2017) – St. Cloud State University, St. Cloud, MN.</i></h5></p>
+		<div class ="row">
+			<div class ="col-sm-offset-3">
+				<p><h5><i>Lab Assistant (Jan 2017 – May 2017) – St. Cloud State University, St. Cloud, MN.</i></h5></p>
+			</div>
 		</div>
-	</div>
-	<div class ="row">
-		<div class ="col-sm-3"></div>
-		<div class ="col-sm-9">
+		<div class ="row">
+			<div class ="col-sm-3"></div>
+			<div class ="col-sm-9">
 				<ul>
 					<li> <p>Held office hours to tutor students to ensure they understood course concepts
 					and helped them with the implementation of assigned projects and programs.</p></li>
 					
 				</ul>
+			</div>
 		</div>
-	</div>
 
 	
-	<div class ="row">
-		<div class ="col-sm-offset-3">
-			<p><h5><i>Teaching Assistant (Aug 2016 – Dec 2016) – St. Cloud State University, St. Cloud, MN.</i></h5></p>
+		<div class ="row">
+			<div class ="col-sm-offset-3">
+				<p><h5><i>Teaching Assistant (Aug 2016 – Dec 2016) – St. Cloud State University, St. Cloud, MN.</i></h5></p>
+			</div>
 		</div>
-	</div>
-	<div class ="row">
-		<div class ="col-sm-3"></div>
-		<div class ="col-sm-9">
+		<div class ="row">
+			<div class ="col-sm-3"></div>
+			<div class ="col-sm-9">
 				<ul>
 					<li><p> Directed HTML and C++ laboratories, graded labs and responded to undergraduate 
 					student questions posed verbally and electronically working as a connection between students and the professor.</p></li>
 					
 				</ul>
+			</div>			
 		</div>
-			
 	</div>
 	
-	
-	<div class ="row">
-		<div class ="col-sm-3"> 
-			<p> <strong>Programming Skills:</strong></p>
-		</div>
-	</div>
-	<div class ="row">
-	<div class ="col-sm-offset-3">
-		<div class ="col-sm-3">
-			<p align ="justify"> Operating system: </p>
-		</div>
-		<div class ="col-sm-1"></div>
-		<div class ="col-sm-9">
-				<p align ="justify">Windows, Linux -Fedora, Ubuntu</p>
-		</div>
-	</div>	
-	</div>
-	<div class ="row">
-	<div class ="col-sm-offset-3">
-		<div class ="col-sm-3">
-			<p align ="justify"> Languages known: </p>
-		</div>
-		<div class ="col-sm-1"></div>
-		<div class ="col-sm-9">
-				<p align ="justify">C, C++, Core-Java, Python, Pearl(basics)</p>
-		</div>
-	</div>	
-	</div>
-	<div class ="row">
-	<div class ="col-sm-offset-3">
-		<div class ="col-sm-3">
-			<p align ="justify"> Web Technologies:</p>
-		</div>
-		<div class ="col-sm-1"></div>
-		<div class ="col-sm-9">
-				<p align ="justify">PHP, HTML, CSS and JavaScript, JQuery, Bootstrap(basics)</p>
-		</div>
-	</div>	
-	</div>
-	<div class ="row">
-	<div class ="col-sm-offset-3">
-		<div class ="col-sm-3">
-			<p align ="justify"> Databases known: </p>
-		</div>
-		<div class ="col-sm-1"></div>
-		<div class ="col-sm-9">
-				<p align ="justify">MySQL, Oracle</p>
-		</div>
-	</div>	
-	</div>
 	
 	<div class ="row">
 		<div class ="col-sm-3"> 
 			<p> <strong>Relevant projects:</strong></p>
 		</div>
 	</div>
-	
 	<div class ="row">
-	<div class ="col-sm-offset-3">
-		<div class ="col-sm-3"> 
-			<p align ="center"> <strong>Title</strong></p>
-		</div>
-		<div class ="col-sm-3"> 
-			<p align ="center"> <strong>Language Used</strong></p>
-		</div>
-		<div class ="col-sm-3"> 
-			<p align="center"> <strong>Description</strong></p>
+		<div class ="col-sm-offset-3">
+			<div class ="col-sm-3"> 
+				<p align ="center"> <strong>Title</strong></p>
+			</div>
+			<div class ="col-sm-3"> 
+				<p align ="center"> <strong>Language Used</strong></p>
+			</div>
+			<div class ="col-sm-6"> 
+				<p align="center"> <strong>Description</strong></p>
+			</div>
 		</div>
 	</div>
-	</div>
 	
 	<div class ="row">
-	<div class ="col-sm-offset-3">
-		<div class ="col-sm-3">
-			<p align ="justify"> E-Voting System </p>
+		<div class ="col-sm-offset-3">
+			<div class ="col-sm-3">
+				<p> E-Voting System </p>
+			</div>
+			<div class ="col-sm-3">
+				<p> HTML and CSS, PHP,  and MySQL</p>
+			</div>
+			<div class ="col-sm-6">
+				<p>Software to elect a representative from the nominated students based on the vote count and popularity.</p>
+			</div>
 		</div>
-		<div class ="col-sm-3">
-		<p align ="justify"> HTML and CSS, PHP,  and MySQL</p>
-		</div>
-		<div class ="col-sm-6">
-				<p align ="justify">Software to elect a representative from the nominated students based on the vote count and popularity.</p>
-		</div>
+	</div>
+	<div class ="row">
+		<div class ="col-sm-offset-3">
+			<div class ="col-sm-3">
+				<p> Adaptive Mock Test System </p>
+			</div>
+			<div class ="col-sm-3">
+				<p> JSP, HTML and CSS, and MySQL</p>
+			</div>
+			<div class ="col-sm-6">
+				<p>Software to analyse the performance and test the students’ preparation precisely where the cognitive level of each question depends on the correctness of previous question answered.</p>
+			</div>
+		</div>	
+	</div>
+	<div class ="row">
+		<div class ="col-sm-offset-3">
+			<div class ="col-sm-3">
+				<p> Box-Office Prediction Using Movie Scripts </p>
+			</div>
+			<div class ="col-sm-3">
+				<p> Java, JSP, HTML and CSS, and MySQL</p>
+			</div>
+			<div class ="col-sm-6">
+				<p>Software which predicts the ROI of a movie based on its script and investment using variables extracted from the script using Natural Language Processing techniques and box-office hit is predicted based on its distance metrics from the dataset.</p>
+			</div>
+		</div>	
 	</div>	
 	<div class ="row">
-	<div class ="col-sm-offset-3">
-		<div class ="col-sm-3">
-			<p align ="justify"> Adaptive Mock Test System </p>
-		</div>
-		<div class ="col-sm-3">
-		<p align ="justify"> JSP, HTML and CSS, and MySQL</p>
-		</div>
-		<div class ="col-sm-6">
-				<p align ="justify">Software to analyse the performance and test the students’ preparation precisely where the cognitive level of each question depends on the correctness of previous question answered.</p>
-		</div>
-	</div>	
-	<div class ="row">
-	<div class ="col-sm-offset-3">
-		<div class ="col-sm-3">
-			<p align ="justify"> Box-Office Prediction Using Movie Scripts </p>
-		</div>
-		<div class ="col-sm-3">
-		<p align ="justify"> Java, JSP, HTML and CSS, and MySQL</p>
-		</div>
-		<div class ="col-sm-6">
-				<p align ="justify">Software which predicts the ROI of a movie based on its script and investment using variables extracted from the script using Natural Language Processing techniques and box-office hit is predicted based on its distance metrics from the dataset.</p>
-		</div>
-	</div>	
-	<div class ="row">
-	<div class ="col-sm-offset-3">
-		<div class ="col-sm-3">
-			<p align ="justify"> Restaurant Menu Ordering System </p>
-		</div>
-		<div class ="col-sm-3">
-		<p align ="justify"> HTML and CSS, PHP, and Oracle</p>
-		</div>
-		<div class ="col-sm-6">
-				<p align ="justify">Software developed and analysed in an agile SDLC having the functional and non-functional requirements of the Restaurant Menu Ordering System.</p>
-		</div>
-	</div>	
+		<div class ="col-sm-offset-3">
+			<div class ="col-sm-3">
+				<p> Restaurant Menu Ordering System </p>
+			</div>
+			<div class ="col-sm-3">
+			<p> HTML and CSS, PHP, and Oracle</p>
+			</div>
+			<div class ="col-sm-6">
+				<p>Software developed and analysed in an agile SDLC having the functional and non-functional requirements of the Restaurant Menu Ordering System.</p>
+			</div>
+		</div>	
+	</div>
 	
 	<div class="row">
-	<div class="col-sm-1"></div>
-	<div class ="col-sm-3">
-	<p> <strong>Activities:</strong></p>
-	</div>
-	</div>
-	<div class ="row">
-	
-	<div class ="col-sm-3"></div>
-		<div class ="col-sm-9">
-				<ul>
-					<li><p>Secured 3rd Prize in 29th CSI National Level Student Convention - CSI at Amrita School of Engineering, Amrita University, India for the paper “A concept based mining model that aids in retrieving the semantic of the passage using text clustering”. </p></li>				
-					<li><p>Completed Inplant training on Data Mining, Database Management and Software Development in Amtex Software Solutions Private Ltd., Chennai, India.</p></li>
-					<li><p> Office Bearer in Computer Society of India (CSI), Sivakasi Chapter – 2011-2014. </p></li>
-					<li><p>Attended Bootcamp training on Lean Activities, Agile Software Development, SCRUM technologies, JIRA, Front-end development using HTML, CSS, jQuery and bootstrap, Back-end development connection using meteor..</p></li>
-					
-				</ul>
+		<div class ="col-sm-3">
+			<p> <strong>Activities:</strong></p>
 		</div>
-	
 	</div>
-
+	<div class= "row">
+	<div class="col-sm-offset-2">
+		<div class ="col-sm-12">
+			<ul>
+				<li><p>Attended Bootcamp training on Lean Activities, Agile Software Development, SCRUM technologies, JIRA, Front-end development using HTML, CSS, jQuery and bootstrap, Back-end development connection using meteor..</p></li>		
+				<li><p>Secured 3rd Prize in 29th CSI National Level Student Convention - CSI at Amrita School of Engineering, Amrita University, India for the paper “A concept based mining model that aids in retrieving the semantic of the passage using text clustering”. </p></li>				
+				<li><p>Completed Inplant training on Data Mining, Database Management and Software Development in Amtex Software Solutions Private Ltd., Chennai, India.</p></li>
+				<li><p> Office Bearer in Computer Society of India (CSI), Sivakasi Chapter – 2011-2014. </p></li>				
+			</ul>
+		</div>
+	</div>
+	</div>
 	
 	</div><!-- margin with offset 2-->	  
     </div><!--fluid container ends here-->
@@ -332,4 +346,4 @@ $(document).ready(function(){
 
     </script>
   </body>
-</html>
+</html>	
